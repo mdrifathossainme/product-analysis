@@ -8,7 +8,6 @@ import ReviewDetails from '../ReviewDetails/ReviewDetails';
 const Home = () => {
 
     const [reviews]=useReview()
-    console.log(reviews)
     return (
       <>
         <div className='home-content grid md:grid-cols-2 sm:grid-cols-1 gap-8 lg:py-20'>
@@ -27,7 +26,7 @@ const Home = () => {
         </div>
         <div className="review">
             <h1 className='text-center text-6xl uppercase font-semibold tracking-widest	'>Customer Review</h1>
-            <div className="review mx-12 mt-16 gap-8 grid grid-cols-2">
+            <div className="review mx-12 mt-16 gap-8 grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1">
                 {
                    reviews.slice(0,3).map(review=><ReviewDetails key={review.id} review={review}></ReviewDetails>)
                 }
