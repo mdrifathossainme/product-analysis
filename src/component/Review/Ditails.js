@@ -5,7 +5,7 @@ const Ditails = ({review}) => {
     return (
         <div className=' flex gap-4 border-solid border-2 border-white items-center px-10 py-8 rounded-lg'>
         <div>
-            <img src={img} className="w-56 h-32 rounded-full
+            <img src={img} className=" img w-56 h-32 rounded-full
 
          " alt="" />
         </div>

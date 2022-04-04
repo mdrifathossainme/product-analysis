@@ -5,7 +5,7 @@ import Ditails from './Ditails';
 const Review = () => {
     const [reviews]=useReview()
     return (
-            <div>
+            <div className=''>
                 <h1 className='text-center text-3xl font-bold my-12 tracking-widest'>All Reviews</h1>
                  <div className="review mx-12 mt-16 gap-8 grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1">
                 {
