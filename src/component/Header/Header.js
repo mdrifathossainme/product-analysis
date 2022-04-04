@@ -8,7 +8,7 @@ const Header = () => {
             <CustomLink className="px-5 font-semibold text-lg" to="/" >HOME</CustomLink>
             <CustomLink className="px-5 font-semibold text-lg" to="/review" >REVIEW</CustomLink>
             <CustomLink className="px-5 font-semibold text-lg" to="/deshboard" >DESHBOARD</CustomLink>
-            <CustomLink className="px-5 font-semibold text-lg" to="/blog" >BLOG</CustomLink>
+            <CustomLink className="px-5 font-semibold text-lg" to="/blogs" >BLOG</CustomLink>
             <CustomLink className="px-5 font-semibold text-lg" to="/about" >ABOUT</CustomLink>
             <hr/>
         </nav>

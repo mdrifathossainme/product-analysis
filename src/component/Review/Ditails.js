@@ -10,7 +10,7 @@ const Ditails = ({review}) => {
          " alt="" />
         </div>
         <div>
-            <h1 className='text-2xl font-semibold my-2' >Name: {name}</h1>
+            <h2 className='text-2xl font-semibold my-2' >Name: {name}</h2>
             <h5>Date: {date} </h5>
             <p className='text-xl mt-2'>Rating : {rating}</p>
             <p className='text-red-200 mt-4 font-semibold'> {reviews}</p>
