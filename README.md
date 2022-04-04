@@ -1,7 +1,8 @@
-# Assignment  link: 
+# Assignment  link: [code link :](https://github.com/programming-hero-web-course-4/product-analysis-website-mdrifathossainme#readme)
+ 
+ [Live Link:](https://marvelous-kringle-acae0a.netlify.app/).
 
- [code link :](https://github.com/programming-hero-web-course-4/product-analysis-website-mdrifathossainme#readme).
- [Live Link:](https://app.netlify.com/sites/marvelous-kringle-acae0a/overview).
+ 
 
 ## What am I doing from this project?
 
