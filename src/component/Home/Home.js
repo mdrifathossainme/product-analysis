@@ -1,10 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import img from '../../asscet/img/img.png'
 import useReview from '../../hook/useReview';
+import ReviewDetails from '../ReviewDetails/ReviewDetails';
 
 
 const Home = () => {
+
     const [reviews]=useReview()
+    console.log(reviews)
     return (
       <>
         <div className='home-content grid md:grid-cols-2 sm:grid-cols-1 gap-8 lg:py-20'>
@@ -23,10 +27,13 @@ const Home = () => {
         </div>
         <div className="review">
             <h1 className='text-center text-6xl uppercase font-semibold tracking-widest	'>Customer Review</h1>
-            <div className="review">
+            <div className="review mx-12 mt-16 gap-8 grid grid-cols-2">
                 {
-                    reviews.slice(0,3).map(review=>review)
+                   reviews.slice(0,3).map(review=><ReviewDetails key={review.id} review={review}></ReviewDetails>)
                 }
+            </div>
+            <div className='text-center my-12'>
+            <Link to="/review" className=' text-lg uppercase font-semibold px-16 text-lg font-bold  border-solid border-2 border-indigo-600  bg-indigo-500 py-5 hover:bg-transparent hover:border-white '>See All Reviwe</Link>
             </div>
         </div>
             

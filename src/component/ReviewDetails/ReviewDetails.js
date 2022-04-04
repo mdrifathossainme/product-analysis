@@ -1,0 +1,21 @@
+import React from 'react';
+
+const ReviewDetails = ({review}) => {
+  const{name ,img ,date, reviews}=review
+    return (
+        <div className=' flex gap-4 border-solid border-2 border-white items-center px-10 py-8 rounded-lg'>
+           <div>
+               <img src={img} className="w-48 h-32 rounded-full
+
+            " alt="" />
+           </div>
+           <div>
+               <h1 className='text-2xl font-semibold my-2' >Name: {name}</h1>
+               <h5>Date: {date}</h5>
+               <p className='text-red-200 mt-4 font-semibold'> {reviews}</p>
+           </div>
+        </div>
+    );
+};
+
+export default ReviewDetails;
